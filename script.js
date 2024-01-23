@@ -1,5 +1,8 @@
 const extendHex = (shortHex) => {
   // write your code here
+	let arr = Array.from(shortHex)
+	const ans = arr.map((ele,i) => ele + ele)
+	return ans.join('');
 };
 
 // Do not change the code below.
